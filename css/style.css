@@ -1,0 +1,43 @@
+/* temporary */
+
+html {
+    background-color: lightgray;
+    border: solid black 5px;
+}
+
+/* text settings */
+
+html h1 {
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 667px) {
+    body {
+        padding: 0.3em;
+        
+        /*TEMPORARY NAV BAR*/
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            background-color: #333;
+            position: sticky;
+            bottom: 0;
+            border-radius: 10px;
+            filter: drop-shadow(0 0 0.33rem black);
+        }
+          
+        .navbar a {
+            text-decoration: none;
+            text-align: center;
+            color: #f2f2f2;
+            float: left;
+            padding: 14px 16px;
+        }
+          
+        .navbar a:hover {
+            background: green;
+            color: black;
+        }
+    }
+}
