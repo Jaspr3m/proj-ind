@@ -13,7 +13,7 @@ html {
 
 /* text settings */
 
-html h1 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -24,16 +24,33 @@ header {
     filter: drop-shadow(0 0 0.33rem black);
     margin-bottom: 1.2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    align-items: center;
 }
 
 section {
-    padding: 1em;
+    padding: 0.3em;
     background: white;
     border-radius: 10px;
-    filter: drop-shadow(0 0 0.33rem black);
+    filter: drop-shadow(0 0 2px black);
     margin-bottom: 1.2em;
+    text-align: center;
 }
+
+section img {
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+figure {
+    background-color: grey;
+    padding: 1em;
+}
+
+.a
 
 section h2 {
     text-align: center;
@@ -42,31 +59,39 @@ section h2 {
 
 @media only screen and (max-width: 667px) {
     body {
-        padding: 0.3em;
-        
+        padding: 0.1em;
         /*TEMPORARY NAV BAR*/
         .navbar {
             display: flex;
             justify-content: space-around;
             overflow: hidden;
-            background-color: #333;
             position: sticky;
             bottom: 0;
             border-radius: 10px;
             filter: drop-shadow(0 0 0.33rem black);
+            padding-bottom: 1em;
         }
-          
-        .navbar a {
-            text-decoration: none;
-            text-align: center;
-            color: #f2f2f2;
-            float: left;
-            padding: 14px 16px;
+
+        .nav-icon {
+            padding: 0.5em;
+            background: white;
+            border-radius: 10px;
+            filter: drop-shadow(0 0 10px black);
         }
-          
-        .navbar a:hover {
-            background: green;
-            color: black;
+
+        .nav-icon-active {
+            padding: 0.5em;
+            background: white;
+            border-radius: 10px;
+            filter: drop-shadow(0 0 1em #2BB673);
         }
+
+        .navbar img {
+            border-radius: 10px;
+            filter: drop-shadow(0 0.1rem 0.1rem black);
+            width: 60%;
+            height: 60%;
+        }
+
     }
 }
