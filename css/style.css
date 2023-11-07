@@ -2,15 +2,6 @@
 
 need font family
 
-*/
-
-/* temporary */
-
-html {
-    background-color: lightgray;
-    border: solid black 5px;
-}
-
 /* text settings */
 
 h1 {
@@ -45,17 +36,19 @@ section img {
     margin-top: 1rem;
 }
 
-figure {
-    background-color: grey;
-    padding: 1em;
-}
-
-.a
-
 section h2 {
     text-align: center;
 }
 
+/* classes */
+
+.vjfb-wat p {
+    padding: 0em 1em 0em 1em;
+}
+
+.vjfb-waarom {
+    display: inline-block;
+}
 
 @media only screen and (max-width: 667px) {
     body {
@@ -76,7 +69,6 @@ section h2 {
             padding: 0.5em;
             background: white;
             border-radius: 10px;
-            filter: drop-shadow(0 0 10px black);
         }
 
         .nav-icon-active {
@@ -92,6 +84,5 @@ section h2 {
             width: 60%;
             height: 60%;
         }
-
     }
 }
