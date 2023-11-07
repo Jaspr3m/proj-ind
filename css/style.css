@@ -42,6 +42,12 @@ section h2 {
 
 /* classes */
 
+section a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F7941D;
+}
+
 .vjfb-wat p {
     padding: 0em 1em 0em 1em;
 }
