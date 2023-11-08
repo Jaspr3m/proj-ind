@@ -6,7 +6,20 @@ need font family
 
 h1 {
     text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 33px;
+    font-weight: bold;
 }
+
+h2 {
+    font-family: 'Quicksand'; 
+}
+
+p,a,ul,li {
+    font-family: 'Microsoft JhengHei UI';
+}
+
+/* ul to the left */
 
 header {
     padding: 1em;
@@ -23,7 +36,7 @@ header h1 {
 }
 
 section {
-    padding: 0.3em;
+    padding: 0.2em;
     background: white;
     border-radius: 10px;
     filter: drop-shadow(0 0 2px black);
@@ -34,6 +47,7 @@ section {
 section img {
     border-radius: 10px;
     margin-top: 1rem;
+    filter: drop-shadow(0 0 0.2rem black);
 }
 
 section h2 {
@@ -46,6 +60,10 @@ section a {
     text-transform: uppercase;
     text-decoration: none;
     color: #F7941D;
+}
+
+.binnenloop {
+    display: flex;
 }
 
 .vjfb-wat p {
