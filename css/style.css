@@ -25,7 +25,7 @@ header {
     padding: 1em;
     background: white;
     border-radius: 10px;
-    filter: drop-shadow(0 0 0.33rem black);
+    filter: drop-shadow(0 0 3px black);
     margin-bottom: 1.2em;
     display: flex;
     justify-content: space-between;
@@ -54,6 +54,10 @@ section h2 {
     text-align: center;
 }
 
+ul {
+    text-align: left;
+}
+
 /* classes */
 
 .binnenloop {
@@ -72,10 +76,6 @@ section h2 {
     font-size: 53px;
 }
 
-ul {
-    text-align: left;
-}
-
 .vjfb-wat p {
     padding: 0em 1em 0em 1em;
 }
@@ -83,6 +83,8 @@ ul {
 .vjfb-waarom {
     display: inline-block;
 }
+
+/* nth of type */
 
 main section:nth-of-type(1) {
     background-color:#7BDDAE;
@@ -111,7 +113,6 @@ main section:nth-of-type(4) {
             position: sticky;
             bottom: 0;
             border-radius: 10px;
-            filter: drop-shadow(0 0 0.33rem black);
             padding-bottom: 1em;
         }
 
@@ -121,16 +122,8 @@ main section:nth-of-type(4) {
             border-radius: 10px;
         }
 
-        .nav-icon-active {
-            padding: 0.5em;
-            background: white;
-            border-radius: 10px;
-            filter: drop-shadow(0 0 1em #2BB673);
-        }
-
         .navbar img {
             border-radius: 10px;
-            filter: drop-shadow(0 0.1rem 0.1rem black);
             width: 60%;
             height: 60%;
         }
