@@ -56,14 +56,24 @@ section h2 {
 
 /* classes */
 
-section a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #F7941D;
-}
-
 .binnenloop {
     display: flex;
+}
+
+.overlay {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 16vh;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 53px;
+}
+
+ul {
+    text-align: left;
 }
 
 .vjfb-wat p {
@@ -72,6 +82,22 @@ section a {
 
 .vjfb-waarom {
     display: inline-block;
+}
+
+main section:nth-of-type(1) {
+    background-color:#7BDDAE;
+}
+
+main section:nth-of-type(2) {
+    background-color: #FFC075;
+}
+
+main section:nth-of-type(3) {
+    background-color: lightgreen;
+}
+
+main section:nth-of-type(4) {
+    background-color: lightblue;
 }
 
 @media only screen and (max-width: 667px) {
