@@ -1,25 +1,20 @@
-/* TODO
-
-need font family
-
-/* text settings */
-
 h1 {
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-size: 33px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 h2 {
-    font-family: 'Quicksand'; 
+    font-family: 'Quicksand';
 }
 
-p,a,ul,li {
+p,
+a,
+ul,
+li {
     font-family: 'Microsoft JhengHei UI';
 }
-
-/* ul to the left */
 
 header {
     padding: 1em;
@@ -29,10 +24,6 @@ header {
     margin-bottom: 1.2em;
     display: flex;
     justify-content: space-between;
-}
-
-header h1 {
-    align-items: center;
 }
 
 section {
@@ -59,8 +50,6 @@ ul {
     text-align: left;
 }
 
-/* classes */
-
 .overlay {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -81,10 +70,8 @@ ul {
     display: inline-block;
 }
 
-/* nth of type */
-
 main section:nth-of-type(1) {
-    background-color:#7BDDAE;
+    background-color: #7BDDAE;
 }
 
 main section:nth-of-type(2) {
@@ -102,6 +89,7 @@ main section:nth-of-type(4) {
 @media only screen and (max-width: 667px) {
     body {
         padding: 0.1em;
+
         /*TEMPORARY NAV BAR*/
         .navbar {
             display: flex;
