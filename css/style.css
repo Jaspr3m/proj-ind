@@ -36,6 +36,7 @@ header h1 {
 }
 
 section {
+    display: block;
     padding: 0.2em;
     background: white;
     border-radius: 10px;
@@ -59,10 +60,6 @@ ul {
 }
 
 /* classes */
-
-.binnenloop {
-    display: flex;
-}
 
 .overlay {
     font-family: 'Montserrat';
